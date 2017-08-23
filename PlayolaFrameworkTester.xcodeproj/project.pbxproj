@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B361BD01F449CD500654968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B361BCF1F449CD500654968 /* ViewController.swift */; };
+		4B361BD31F449CD500654968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B361BD11F449CD500654968 /* Main.storyboard */; };
+		4B361BD51F449CD500654968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B361BD41F449CD500654968 /* Assets.xcassets */; };
+		4B361BD81F449CD500654968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B361BD61F449CD500654968 /* LaunchScreen.storyboard */; };
+		4B361BE31F449CD500654968 /* PlayolaFrameworkTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B361BE21F449CD500654968 /* PlayolaFrameworkTesterTests.swift */; };
+		4B361BED1F44AB0A00654968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B361BCD1F449CD500654968 /* AppDelegate.swift */; };
+		A51FA9F1FE20CC97A3E75EA1 /* Pods_PlayolaFrameworkTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E203C3A06C8F1B0156C67A /* Pods_PlayolaFrameworkTester.framework */; };
+		B83A0854B822EE715EF44E8D /* Pods_PlayolaFrameworkTesterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEE9EFBC60B99C77758F0BD /* Pods_PlayolaFrameworkTesterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B361BDF1F449CD500654968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B361BC21F449CD500654968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B361BC91F449CD500654968;
+			remoteInfo = PlayolaFrameworkTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E203C3A06C8F1B0156C67A /* Pods_PlayolaFrameworkTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayolaFrameworkTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA66683B166D54D093087AA /* Pods-PlayolaFrameworkTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayolaFrameworkTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayolaFrameworkTester/Pods-PlayolaFrameworkTester.release.xcconfig"; sourceTree = "<group>"; };
+		4B361BCA1F449CD500654968 /* PlayolaFrameworkTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayolaFrameworkTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B361BCD1F449CD500654968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B361BCF1F449CD500654968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B361BD21F449CD500654968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B361BD41F449CD500654968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B361BD71F449CD500654968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B361BD91F449CD500654968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B361BDE1F449CD500654968 /* PlayolaFrameworkTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayolaFrameworkTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B361BE21F449CD500654968 /* PlayolaFrameworkTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayolaFrameworkTesterTests.swift; sourceTree = "<group>"; };
+		4B361BE41F449CD500654968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9368796E363749BD7FC7D21A /* Pods-PlayolaFrameworkTesterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayolaFrameworkTesterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayolaFrameworkTesterTests/Pods-PlayolaFrameworkTesterTests.release.xcconfig"; sourceTree = "<group>"; };
+		96B8A40CECCFF16406E388A7 /* Pods-PlayolaFrameworkTesterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayolaFrameworkTesterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayolaFrameworkTesterTests/Pods-PlayolaFrameworkTesterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDEE9EFBC60B99C77758F0BD /* Pods_PlayolaFrameworkTesterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayolaFrameworkTesterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B1C7BCE385A474DA4C520 /* Pods-PlayolaFrameworkTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayolaFrameworkTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayolaFrameworkTester/Pods-PlayolaFrameworkTester.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B361BC71F449CD500654968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51FA9F1FE20CC97A3E75EA1 /* Pods_PlayolaFrameworkTester.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B361BDB1F449CD500654968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83A0854B822EE715EF44E8D /* Pods_PlayolaFrameworkTesterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B361BC11F449CD500654968 = {
+			isa = PBXGroup;
+			children = (
+				4B361BCC1F449CD500654968 /* PlayolaFrameworkTester */,
+				4B361BE11F449CD500654968 /* PlayolaFrameworkTesterTests */,
+				4B361BCB1F449CD500654968 /* Products */,
+				620EA0B5A0D2243BDC47FAE3 /* Pods */,
+				821F284C420E164852775AB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B361BCB1F449CD500654968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B361BCA1F449CD500654968 /* PlayolaFrameworkTester.app */,
+				4B361BDE1F449CD500654968 /* PlayolaFrameworkTesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B361BCC1F449CD500654968 /* PlayolaFrameworkTester */ = {
+			isa = PBXGroup;
+			children = (
+				4B361BCD1F449CD500654968 /* AppDelegate.swift */,
+				4B361BCF1F449CD500654968 /* ViewController.swift */,
+				4B361BD11F449CD500654968 /* Main.storyboard */,
+				4B361BD41F449CD500654968 /* Assets.xcassets */,
+				4B361BD61F449CD500654968 /* LaunchScreen.storyboard */,
+				4B361BD91F449CD500654968 /* Info.plist */,
+			);
+			path = PlayolaFrameworkTester;
+			sourceTree = "<group>";
+		};
+		4B361BE11F449CD500654968 /* PlayolaFrameworkTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B361BE21F449CD500654968 /* PlayolaFrameworkTesterTests.swift */,
+				4B361BE41F449CD500654968 /* Info.plist */,
+			);
+			path = PlayolaFrameworkTesterTests;
+			sourceTree = "<group>";
+		};
+		620EA0B5A0D2243BDC47FAE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B1C7BCE385A474DA4C520 /* Pods-PlayolaFrameworkTester.debug.xcconfig */,
+				0FA66683B166D54D093087AA /* Pods-PlayolaFrameworkTester.release.xcconfig */,
+				96B8A40CECCFF16406E388A7 /* Pods-PlayolaFrameworkTesterTests.debug.xcconfig */,
+				9368796E363749BD7FC7D21A /* Pods-PlayolaFrameworkTesterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		821F284C420E164852775AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E203C3A06C8F1B0156C67A /* Pods_PlayolaFrameworkTester.framework */,
+				BDEE9EFBC60B99C77758F0BD /* Pods_PlayolaFrameworkTesterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B361BC91F449CD500654968 /* PlayolaFrameworkTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B361BE71F449CD500654968 /* Build configuration list for PBXNativeTarget "PlayolaFrameworkTester" */;
+			buildPhases = (
+				1F26E7C123DDF3CA24813D55 /* [CP] Check Pods Manifest.lock */,
+				4B361BC61F449CD500654968 /* Sources */,
+				4B361BC71F449CD500654968 /* Frameworks */,
+				4B361BC81F449CD500654968 /* Resources */,
+				2ABEBFA2E5D0BDE5586E316C /* [CP] Embed Pods Frameworks */,
+				043627F5B37CDFB3AD4B3BF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayolaFrameworkTester;
+			productName = PlayolaFrameworkTester;
+			productReference = 4B361BCA1F449CD500654968 /* PlayolaFrameworkTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B361BDD1F449CD500654968 /* PlayolaFrameworkTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B361BEA1F449CD500654968 /* Build configuration list for PBXNativeTarget "PlayolaFrameworkTesterTests" */;
+			buildPhases = (
+				4B4C68B03C9B53C7A99299DF /* [CP] Check Pods Manifest.lock */,
+				4B361BDA1F449CD500654968 /* Sources */,
+				4B361BDB1F449CD500654968 /* Frameworks */,
+				4B361BDC1F449CD500654968 /* Resources */,
+				61300FE916DC082001A35CF6 /* [CP] Embed Pods Frameworks */,
+				7E9FB0B90D42E95E3D5E1828 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B361BE01F449CD500654968 /* PBXTargetDependency */,
+			);
+			name = PlayolaFrameworkTesterTests;
+			productName = PlayolaFrameworkTesterTests;
+			productReference = 4B361BDE1F449CD500654968 /* PlayolaFrameworkTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B361BC21F449CD500654968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brian D Keane";
+				TargetAttributes = {
+					4B361BC91F449CD500654968 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FSRSPV9N9Q;
+						ProvisioningStyle = Automatic;
+					};
+					4B361BDD1F449CD500654968 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FSRSPV9N9Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B361BC91F449CD500654968;
+					};
+				};
+			};
+			buildConfigurationList = 4B361BC51F449CD500654968 /* Build configuration list for PBXProject "PlayolaFrameworkTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B361BC11F449CD500654968;
+			productRefGroup = 4B361BCB1F449CD500654968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B361BC91F449CD500654968 /* PlayolaFrameworkTester */,
+				4B361BDD1F449CD500654968 /* PlayolaFrameworkTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B361BC81F449CD500654968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B361BD81F449CD500654968 /* LaunchScreen.storyboard in Resources */,
+				4B361BD51F449CD500654968 /* Assets.xcassets in Resources */,
+				4B361BD31F449CD500654968 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B361BDC1F449CD500654968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043627F5B37CDFB3AD4B3BF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayolaFrameworkTester/Pods-PlayolaFrameworkTester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F26E7C123DDF3CA24813D55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayolaFrameworkTester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ABEBFA2E5D0BDE5586E316C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PlayolaFrameworkTester/Pods-PlayolaFrameworkTester-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Locksmith/Locksmith.framework",
+				"${BUILT_PRODUCTS_DIR}/PlayolaCore/PlayolaCore.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRemoteFileCache/SwiftRemoteFileCache.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Locksmith.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayolaCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRemoteFileCache.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayolaFrameworkTester/Pods-PlayolaFrameworkTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B4C68B03C9B53C7A99299DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayolaFrameworkTesterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61300FE916DC082001A35CF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayolaFrameworkTesterTests/Pods-PlayolaFrameworkTesterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9FB0B90D42E95E3D5E1828 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayolaFrameworkTesterTests/Pods-PlayolaFrameworkTesterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B361BC61F449CD500654968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B361BED1F44AB0A00654968 /* AppDelegate.swift in Sources */,
+				4B361BD01F449CD500654968 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B361BDA1F449CD500654968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B361BE31F449CD500654968 /* PlayolaFrameworkTesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B361BE01F449CD500654968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B361BC91F449CD500654968 /* PlayolaFrameworkTester */;
+			targetProxy = 4B361BDF1F449CD500654968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B361BD11F449CD500654968 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B361BD21F449CD500654968 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B361BD61F449CD500654968 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B361BD71F449CD500654968 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B361BE51F449CD500654968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B361BE61F449CD500654968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B361BE81F449CD500654968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4B1C7BCE385A474DA4C520 /* Pods-PlayolaFrameworkTester.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSRSPV9N9Q;
+				INFOPLIST_FILE = PlayolaFrameworkTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.PlayolaFrameworkTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B361BE91F449CD500654968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA66683B166D54D093087AA /* Pods-PlayolaFrameworkTester.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSRSPV9N9Q;
+				INFOPLIST_FILE = PlayolaFrameworkTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.PlayolaFrameworkTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B361BEB1F449CD500654968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B8A40CECCFF16406E388A7 /* Pods-PlayolaFrameworkTesterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FSRSPV9N9Q;
+				INFOPLIST_FILE = PlayolaFrameworkTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.PlayolaFrameworkTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayolaFrameworkTester.app/PlayolaFrameworkTester";
+			};
+			name = Debug;
+		};
+		4B361BEC1F449CD500654968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9368796E363749BD7FC7D21A /* Pods-PlayolaFrameworkTesterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FSRSPV9N9Q;
+				INFOPLIST_FILE = PlayolaFrameworkTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.PlayolaFrameworkTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayolaFrameworkTester.app/PlayolaFrameworkTester";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B361BC51F449CD500654968 /* Build configuration list for PBXProject "PlayolaFrameworkTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B361BE51F449CD500654968 /* Debug */,
+				4B361BE61F449CD500654968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B361BE71F449CD500654968 /* Build configuration list for PBXNativeTarget "PlayolaFrameworkTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B361BE81F449CD500654968 /* Debug */,
+				4B361BE91F449CD500654968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B361BEA1F449CD500654968 /* Build configuration list for PBXNativeTarget "PlayolaFrameworkTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B361BEB1F449CD500654968 /* Debug */,
+				4B361BEC1F449CD500654968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B361BC21F449CD500654968 /* Project object */;
+}

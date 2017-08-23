@@ -1,0 +1,6 @@
+framework module PlayolaCore {
+  umbrella header "PlayolaCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

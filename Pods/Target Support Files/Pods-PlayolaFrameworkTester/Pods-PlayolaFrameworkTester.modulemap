@@ -1,0 +1,6 @@
+framework module Pods_PlayolaFrameworkTester {
+  umbrella header "Pods-PlayolaFrameworkTester-umbrella.h"
+
+  export *
+  module * { export * }
+}
