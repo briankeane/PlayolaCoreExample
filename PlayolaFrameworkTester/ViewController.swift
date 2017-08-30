@@ -70,7 +70,6 @@ class ViewController: UIViewController {
             DispatchQueue.main.async
             {
                 self.playStopButton.setTitle("Stop", for: .normal)
-                self.stationLabel.text = "Station: "
             }
         }
         
@@ -113,8 +112,6 @@ class ViewController: UIViewController {
                 {
                     stationNameString = "Station: \(stationName)"
                 }
-                
-                
                 
                 DispatchQueue.main.async
                 {
