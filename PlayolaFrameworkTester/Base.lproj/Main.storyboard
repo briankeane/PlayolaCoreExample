@@ -32,16 +32,52 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8k-IO-3um"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Station:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFX-JP-Nh7">
+                                <rect key="frame" x="16" y="111" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="JG9-9P-xE5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now Playing:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLb-xJ-49h">
+                                <rect key="frame" x="16" y="140" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="iVU-ua-2Xh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G4H-m8-f4h">
+                                <rect key="frame" x="67" y="209" width="240" height="249"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="5hJ-Bl-ikE"/>
+                                    <constraint firstAttribute="height" constant="249" id="arM-Id-4fc"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="uBn-2q-jQ2" secondAttribute="trailing" constant="59" id="AJQ-KB-gRh"/>
                             <constraint firstItem="uBn-2q-jQ2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="COA-Jb-mdL"/>
+                            <constraint firstItem="CFX-JP-Nh7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FRf-UT-KoV"/>
+                            <constraint firstItem="G4H-m8-f4h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J1w-P0-sfF"/>
+                            <constraint firstItem="G4H-m8-f4h" firstAttribute="top" secondItem="NLb-xJ-49h" secondAttribute="bottom" constant="48" id="NzD-Ci-ilZ"/>
+                            <constraint firstItem="NLb-xJ-49h" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ehH-aA-5tv"/>
+                            <constraint firstItem="NLb-xJ-49h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gt9-ce-8n1"/>
+                            <constraint firstItem="NLb-xJ-49h" firstAttribute="top" secondItem="CFX-JP-Nh7" secondAttribute="bottom" constant="8" id="pBt-d4-Rvw"/>
+                            <constraint firstItem="CFX-JP-Nh7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rls-Oa-xD7"/>
                             <constraint firstItem="uBn-2q-jQ2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="59" id="rlw-vD-fPr"/>
+                            <constraint firstItem="CFX-JP-Nh7" firstAttribute="top" secondItem="uBn-2q-jQ2" secondAttribute="bottom" constant="24" id="sqt-vE-ME5"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="albumArtworkImageView" destination="G4H-m8-f4h" id="Ns9-GV-kyD"/>
+                        <outlet property="nowPlayingLabel" destination="NLb-xJ-49h" id="7wL-Hz-Jb3"/>
                         <outlet property="playStopButton" destination="uBn-2q-jQ2" id="mlg-Pm-FzJ"/>
+                        <outlet property="stationLabel" destination="CFX-JP-Nh7" id="VOa-e6-l1K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

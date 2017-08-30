@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A87893AC8A5D935437A88DD57D603690750D21FD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "82402E3FD2E4C6FEB0F8BF25BA80405E0D016DC7" : 9223372036854775807,
+    "A87893AC8A5D935437A88DD57D603690750D21FD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D82C37F5-8491-40E6-94D8-282843D95B4D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "82402E3FD2E4C6FEB0F8BF25BA80405E0D016DC7" : "PlayolaCore\/",
+    "A87893AC8A5D935437A88DD57D603690750D21FD" : "PlayolaFrameworkTester\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PlayolaFrameworkTester",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PlayolaFrameworkTester.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/briankeane\/PlayolaCore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82402E3FD2E4C6FEB0F8BF25BA80405E0D016DC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/briankeane\/PlayolaCoreExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A87893AC8A5D935437A88DD57D603690750D21FD"
+    }
+  ]
+}

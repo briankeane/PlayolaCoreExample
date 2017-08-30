@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B121CB2AE73010BBF1D0644B8ED46546'
+               BlueprintIdentifier = '8DA03B2E31A7796F835E85A8B0149949'
                BlueprintName = 'SwiftRemoteFileCache'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SwiftRemoteFileCache.framework'>
