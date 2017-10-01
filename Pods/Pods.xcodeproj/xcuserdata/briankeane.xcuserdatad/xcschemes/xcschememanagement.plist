@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KDCircularProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Locksmith.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PlayolaCore-PlayolaImages.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,7 +62,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>296B7FB18B48F3B5AE549809C88BB804</key>
+		<key>2CB702F09ED476299AF7B6393E9C0976</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>322428ECC8C5EC71F14C92233787C7AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>465330A82D19032379CA4BB1E33ABBEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4BF87DC16FF5FCE343F97DA2A8DC1993</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6C27F01CA218D2921033FA3C7D373400</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F712943B3C5592E82604940D11CE08A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,22 +97,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8DA03B2E31A7796F835E85A8B0149949</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9DAB14C2389CF6CFC470354172129DC2</key>
+		<key>A6F627257F71AE640F33108A0F9C90D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C7F727D48928BF47D913AFC48BB6A978</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D7020C2E87F646EA9DAE0EA8434CAE2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

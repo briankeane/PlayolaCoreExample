@@ -1,6 +1,6 @@
 {
   "name": "PlayolaCore",
-  "version": "0.0.5",
+  "version": "0.0.11",
   "summary": "Basic Playola Communication and Models.",
   "homepage": "https://github.com/briankeane/PlayolaCore.git",
   "license": {
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/briankeane/PlayolaCore.git",
-    "tag": "0.0.5"
+    "tag": "0.0.11"
   },
   "exclude_files": [
 
@@ -34,8 +34,28 @@
       "~> 3.7"
     ],
     "SwiftRemoteFileCache": [
-      "~> 0.0.7"
+      "~> 0.0.8"
+    ],
+    "Kingfisher": [
+      "~> 3.13"
     ]
   },
-  "source_files": "Sources/**/*.{h,m,swift}"
+  "ios": {
+    "dependencies": {
+      "KDCircularProgress": [
+
+      ]
+    },
+    "exclude_files": "Sources/osxOnly/**/*.{h,m,swift}"
+  },
+  "source_files": "Sources/**/*.{h,m,swift}",
+  "osx": {
+    "exclude_files": "Sources/iosOnly/**/*.{h,m,swift}"
+  },
+  "resource_bundles": {
+    "PlayolaImages": [
+      "Sources/Images/*"
+    ]
+  },
+  "resources": "Sources/Images/**/*.{png}"
 }

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9DAB14C2389CF6CFC470354172129DC2'
+               BlueprintIdentifier = 'A6F627257F71AE640F33108A0F9C90D3'
                BlueprintName = 'PlayolaCore'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'PlayolaCore.framework'>

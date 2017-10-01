@@ -13,6 +13,7 @@
 		4B361BD81F449CD500654968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B361BD61F449CD500654968 /* LaunchScreen.storyboard */; };
 		4B361BE31F449CD500654968 /* PlayolaFrameworkTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B361BE21F449CD500654968 /* PlayolaFrameworkTesterTests.swift */; };
 		4B361BED1F44AB0A00654968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B361BCD1F449CD500654968 /* AppDelegate.swift */; };
+		4BF434B41F7EC17800E79F59 /* AudioPlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF434B31F7EC17800E79F59 /* AudioPlotViewController.swift */; };
 		A51FA9F1FE20CC97A3E75EA1 /* Pods_PlayolaFrameworkTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E203C3A06C8F1B0156C67A /* Pods_PlayolaFrameworkTester.framework */; };
 		B83A0854B822EE715EF44E8D /* Pods_PlayolaFrameworkTesterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEE9EFBC60B99C77758F0BD /* Pods_PlayolaFrameworkTesterTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		4B361BDE1F449CD500654968 /* PlayolaFrameworkTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayolaFrameworkTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B361BE21F449CD500654968 /* PlayolaFrameworkTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayolaFrameworkTesterTests.swift; sourceTree = "<group>"; };
 		4B361BE41F449CD500654968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF434B31F7EC17800E79F59 /* AudioPlotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlotViewController.swift; sourceTree = "<group>"; };
 		9368796E363749BD7FC7D21A /* Pods-PlayolaFrameworkTesterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayolaFrameworkTesterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayolaFrameworkTesterTests/Pods-PlayolaFrameworkTesterTests.release.xcconfig"; sourceTree = "<group>"; };
 		96B8A40CECCFF16406E388A7 /* Pods-PlayolaFrameworkTesterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayolaFrameworkTesterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayolaFrameworkTesterTests/Pods-PlayolaFrameworkTesterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDEE9EFBC60B99C77758F0BD /* Pods_PlayolaFrameworkTesterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayolaFrameworkTesterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 				4B361BD41F449CD500654968 /* Assets.xcassets */,
 				4B361BD61F449CD500654968 /* LaunchScreen.storyboard */,
 				4B361BD91F449CD500654968 /* Info.plist */,
+				4BF434B31F7EC17800E79F59 /* AudioPlotViewController.swift */,
 			);
 			path = PlayolaFrameworkTester;
 			sourceTree = "<group>";
@@ -277,6 +280,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-PlayolaFrameworkTester/Pods-PlayolaFrameworkTester-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${PODS_ROOT}/AudioKit/iOS/AudioKit.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Locksmith/Locksmith.framework",
 				"${BUILT_PRODUCTS_DIR}/PlayolaCore/PlayolaCore.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
@@ -286,6 +291,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Locksmith.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayolaCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
@@ -353,6 +360,7 @@
 			files = (
 				4B361BED1F44AB0A00654968 /* AppDelegate.swift in Sources */,
 				4B361BD01F449CD500654968 /* ViewController.swift in Sources */,
+				4BF434B41F7EC17800E79F59 /* AudioPlotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
